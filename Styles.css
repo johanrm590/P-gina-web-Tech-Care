@@ -1,0 +1,156 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #cee0f0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: rgb(240, 14, 14); 
+    text-align: center; 
+    text-shadow: 
+        1px 1px 0 #000, 
+        -1px -1px 0 #000, 
+        1px -1px 0 #000, 
+        -1px 1px 0 #000;
+}
+
+h2 {
+    color: rgb(247, 243, 243); 
+    text-align: center; 
+    text-shadow: 
+        1px 1px 0 #000, 
+        -1px -1px 0 #000, 
+        1px -1px 0 #000, 
+        -1px 1px 0 #000;
+}
+
+h3 {
+    color: rgb(247, 243, 243); 
+    text-align: center; 
+    text-shadow: 
+        1px 1px 0 #000, 
+        -1px -1px 0 #000, 
+        1px -1px 0 #000, 
+        -1px 1px 0 #000;
+}
+
+h5 {
+    color: rgb(247, 243, 243); 
+    text-align: left; 
+    font-size: 18px; /* Añadí 'px' para especificar la unidad */
+    text-shadow: 
+        1px 1px 0 #000, 
+        -1px -1px 0 #000, 
+        1px -1px 0 #000, 
+        -1px 1px 0 #000;
+}
+
+nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 2px; /* Añadí 'px' para especificar la unidad */
+    overflow: hidden;
+    background-color: #0f79e2e3;
+    font-weight: bold; 
+    color: #e7e1e1;
+    box-shadow: 0 2px 4px rgba(20, 6, 6, 0.89);
+}
+
+nav li {
+    float: left; /* Cambié 'inline-start' por 'left' para compatibilidad más amplia */
+}
+
+nav li a, .logo {
+    display: block;
+    color: rgb(248, 238, 238);
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;    
+}
+
+.logo {
+    margin-left: 20px; /* Añadí 'px' para especificar la unidad */
+    width: 120px;
+    height: auto;
+}
+
+#header {
+    box-shadow: 0 2px 4px rgba(20, 6, 6, 0.89);
+    padding: 20px;
+    background-color: #2641da;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 50px;
+    color: #a19191;
+    font-size: 24px; /* Añadí 'px' para especificar la unidad */
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    color: #0c30a5;
+    font-size: 24px; /* Añadí 'px' para especificar la unidad */
+    font-weight: bold;
+}
+
+.contenedor p {
+    text-align: center;
+    margin-right: 2px; /* Asegúrate de que 'px' esté incluido para especificar la unidad */
+    font-size: 16px; /* Añadí 'px' para especificar la unidad */
+    line-height: 1.8;
+    background-color: rgba(5, 81, 128, 0.082);
+    font-family: 'Comic Sans MS', 'Arial', sans-serif; /* Agrega Comic Sans MS a la lista de fuentes */
+}
+
+.contenedor2 p {
+    text-align: center;
+    margin-right: 1px; /* Añadí 'px' para especificar la unidad */
+    font-size: 16px; /* Añadí 'px' para especificar la unidad */
+    line-height: 1.5;
+    background-color: rgba(32, 32, 32, 0.178);
+}
+
+#imagen {
+    text-align: center;
+    border: 1px solid #bbb6b600;
+    padding: 0px;
+    margin: auto;
+    width: 100%; /* Añadí '100%' para ajustar al contenedor o especifica un valor en px */
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+#video {
+    text-align: center;
+    margin: 20px;
+}
+
+form {
+    text-align: center;
+    margin: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
